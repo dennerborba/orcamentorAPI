@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gE4F7/KhGyt+j1iJK1H2AjdNRGhle42mOFYT6EE7GVI=",
+  "Source": "orcamentor.api",
+  "BasePath": "_content/orcamentor.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

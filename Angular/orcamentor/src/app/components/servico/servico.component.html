@@ -1,0 +1,15 @@
+<div class="container__body">
+    @for (item of servicosApi; track $index) {
+        <div class="card">
+            <h3>{{item.id}}</h3>
+            <p>Descrição: {{item.descricao}}</p>
+            <p>Valor: {{item.valor}}</p>
+            <p>Equipe: {{item.equipe}}</p>
+            <p>Responsável: {{item.responsavel}}</p>
+            <ng-content/>
+        </div>
+        <div class="container__footer">
+            <span>{{''}}</span>
+        </div>
+    }
+</div>
